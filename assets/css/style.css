@@ -576,9 +576,11 @@ img {
   width: 100%;
 }
 #mu-abtus-counter .mu-abtus-counter-area {
-  display: inline;
+  display: flex;
   float: left;
   width: 100%;
+  margin: 0px 10%;
+  justify-content: center;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single {
   border-right: 2px solid #888;
@@ -586,6 +588,7 @@ img {
   float: left;
   text-align: center;
   width: 100%;
+  padding-right: 40px;
 }
 #mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single span {
   color: #fff;
